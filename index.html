@@ -9,65 +9,80 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/conteudo.css" />
+    <link rel="stylesheet" href="./assets/css/informacoes.css" />
+    <link rel="stylesheet" href="./assets/css/sobre.css" />
+    <link rel="stylesheet" href="./assets/css/avaliacao.css" />
+    <link rel="stylesheet" href="./assets/css/comentarios.css">
     <title>Frontend Mentor | Social proof section</title>
   </head>
-  <body>
-    <section>
-      <div>
-        <h1>10,000+ of our users love our products.</h1>
-        <p>
-          We only provide great products combined with excellent customer
-          service. See what our satisfied customers are saying about our
-          services.
-        </p>
-      </div>
-      <section>
-        <div>
-          <img src="" alt="" />
-          <p>Rated 5 Stars in Reviews</p>
+  <body class="app">
+    <main class="conteudo">
+      <section class="informacoes">
+        <div class="sobre">
+          <h1 class="sobre__titulo">10,000+ of our users love our products.</h1>
+          <p class="sobre__descricao">
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.
+          </p>
         </div>
-        <div>
-          <img src="" alt="" />
-          <p>Rated 5 Stars in Report Guru</p>
+        <div class="avaliacao">
+          <div class="avaliacao__principal">
+            <img src="" alt="" class="avaliacao__estrela" />
+            <p class="avaliacao__descricao">Rated 5 Stars in Reviews</p>
+          </div>
+          <div class="avaliacao__principal">
+            <img src="" alt="" class="avaliacao__estrela" />
+            <p class="avaliacao__descricao">Rated 5 Stars in Report Guru</p>
+          </div>
+          <div class="avaliacao__principal">
+            <img src="" alt="" class="avaliacao__estrela" />
+            <p class="avaliacao__descricao">Rated 5 Stars in BestTech</p>
+          </div>
         </div>
-        <div>
-          <img src="" alt="" />
-          <p>Rated 5 Stars in BestTech</p>
+        <div class="comentarios">
+          <div class="card">
+            <div class="card__foto"></div>
+            <span class="card__nome">Colton Smith</span>
+            <span class="card__status"> Verified Buyer</span>
+            <p class="card__comentario">
+              "We needed the same printed design as the one we had ordered a
+              week prior. Not only did they find the original order, but we also
+              received it in time. Excellent!"
+            </p>
+          </div>
+          <div class="card">
+            <div class="card__foto"></div>
+            <span class="card__nome"> Irene Roberts </span>
+            <span class="card__status"> Verified Buyer</span>
+            <p class="card__comentario">
+              "Customer service is always excellent and very quick turn around.
+              Completely delighted with the simplicity of the purchase and the
+              speed of delivery."
+            </p>
+          </div>
+          <div class="card">
+            <div class="card__foto"></div>
+            <span class="card__nome">Anne Wallace</span>
+            <span class="card__status"> Verified Buyer</span>
+            <p class="card_comentario">
+              "Put an order with this company and can only praise them for the
+              very high standard. Will definitely use them again and recommend
+              them to everyone!"
+            </p>
+          </div>
         </div>
       </section>
-      <section>
-        <div>
-          <div></div>
-          <span>Colton Smith</span>
-          <span> Verified Buyer</span>
-          <p>
-            "We needed the same printed design as the one we had ordered a week
-            prior. Not only did they find the original order, but we also
-            received it in time. Excellent!"
-          </p>
-        </div>
-        <div>
-          <div></div>
-          <span> Irene Roberts </span>
-          <span> Verified Buyer</span>
-          <p>
-            "Customer service is always excellent and very quick turn around.
-            Completely delighted with the simplicity of the purchase and the
-            speed of delivery."
-          </p>
-        </div>
-        <div>
-          <div></div>
-          <span>Anne Wallace</span>
-          <span> Verified Buyer</span>
-          <p>
-            "Put an order with this company and can only praise them for the
-            very high standard. Will definitely use them again and recommend
-            them to everyone!"
-          </p>
-        </div>
-      </section>
-    </section>
+    </main>
   </body>
 </html>
