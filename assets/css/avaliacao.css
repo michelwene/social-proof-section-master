@@ -1,6 +1,40 @@
-.avaliacao{
-    display: flex;
-    grid-column: 3 / 5;
-    grid-row: 1 / 1;
-    flex-direction: column;
+.avaliacao {
+  display: flex;
+  grid-column: 3 / 5;
+  grid-row: 1 / 1;
+  flex-direction: column;
+  margin: auto;
+  grid-gap: 15px 0;
+}
+
+.avaliacao__principal {
+  align-items: center;
+  background-color: var(--cor-magenta-cinzento-clara);
+  border-radius: 5px;
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.avaliacao__principal:nth-child(2) {
+  margin-left: 50px;
+}
+
+.avaliacao__principal:nth-child(3) {
+  margin-left: 80px;
+}
+.avaliacao__estrela {
+  background-image: url(../img/icon-star.svg);
+  background-position: left center;
+  background-repeat: space;
+  width: 100px;
+  height: 20px;
+}
+
+.avaliacao__descricao {
+  font-family: "Spantan", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--cor-magenta);
 }
