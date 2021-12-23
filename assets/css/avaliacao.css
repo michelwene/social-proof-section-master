@@ -4,6 +4,7 @@
   grid-row: 1 / 1;
   flex-direction: column;
   margin: auto;
+  margin-top: 10rem;
   grid-gap: 15px 0;
 }
 
@@ -35,6 +36,28 @@
 .avaliacao__descricao {
   font-family: "Spantan", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   color: var(--cor-magenta);
+}
+
+@media screen and (max-width: 768px) {
+  .avaliacao {
+    grid-gap: 30px;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  .avaliacao__principal {
+    flex-direction: column;
+    height: 100px;
+    width: calc(100vw - 3rem);
+  }
+
+  .avaliacao__principal:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .avaliacao__principal:nth-child(3) {
+    margin-left: 0;
+  }
 }

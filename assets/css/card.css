@@ -93,3 +93,39 @@
   padding-right: 40px;
   text-align: left;
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .card--Colton {
+    height: 300px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2.5rem;
+    width: calc(100vw - 3rem);
+  }
+
+  .card__info {
+    width: 250px;
+  }
+
+  .card--Irene {
+    height: 300px;
+    justify-content: center;
+    margin: auto;
+    width: 100vw;
+    width: calc(100vw - 3rem);
+  }
+
+  .card--Anne {
+    height: 300px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5rem;
+    width: 100vw;
+    width: calc(100vw - 3rem);
+  }
+}

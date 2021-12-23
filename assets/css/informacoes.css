@@ -4,3 +4,10 @@
     grid-template-rows: 50% 50%;
     height: 100vh;
 }
+
+@media screen and (max-width: 768px){
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+    }
+}

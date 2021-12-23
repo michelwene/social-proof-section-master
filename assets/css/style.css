@@ -24,3 +24,21 @@
   grid-area: conteudo;
   padding: 0 2rem;
 }
+
+@media screen and (max-width: 768px){
+  .app{
+    background-image: url(../img/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 70%;
+  }
+
+
+  .conteudo{
+    background-image: url(../img/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 70%;
+    padding: 0;
+  }
+}
