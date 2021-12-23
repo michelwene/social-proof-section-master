@@ -6,9 +6,8 @@
     grid-row: 1 / 2;
     height: 240px;
     justify-content: center;
-    margin: auto;
-    margin-top: 10rem;
-    margin-left: 4rem;
+    margin: 10rem auto auto auto;
+
     width: 430px;
 }
 
