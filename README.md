@@ -52,7 +52,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - Solução URL: [https://github.com/michelwene/social-proof-section-master](https://github.com/michelwene/social-proof-section-master)
-- Live Site URL: [https://michelwene.github.io/nft-preview-card-component/](https://michelwene.github.io/stats-preview-card/)
+- Site URL: [https://michelwene.github.io/social-proof-section-master/](https://michelwene.github.io/social-proof-section-master/)
 
 ## Meu processo
 
